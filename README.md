@@ -3,7 +3,7 @@ Group Project #2
 
 ## 1. Home Page
 Use the drop down menu to select if you are a renter looking for an item or an owner wanting to list an item.
-![ScreenShot](public/assets/css/images/HomeScreen.jpg)
+![ScreenShot](public/assets/css/images/HomeScreen.png)
 
 ## 2. User View
 If you selected a renter, you are taken to the rental search page, where you can input the below search parameters for the item you are looking for:
@@ -12,25 +12,25 @@ If you selected a renter, you are taken to the rental search page, where you can
 3.  Distance from location
 4.  Location
 5. Dates needed
-![ScreenShot](public/assets/css/images/UserSearch.jpg)
-![ScreenShot](public/assets/css/images/UserSearch_text.jpg)
+![ScreenShot](public/assets/css/images/UserSearch.png)
+![ScreenShot](public/assets/css/images/UserSearch_text.png)
 Once the search button is clicked, items that match the entered criteria will display below the search box.
 ![ScreenShot](public/assets/css/images/UserResults.jpg)
 
 Clicking the rent button will take you to a confirmation of page where you are asked "Are you sure you want to rent this item?"
-![ScreenShot](public/assets/css/images/RentalConfirm.jpg)
+![ScreenShot](public/assets/css/images/RentalConfirm.png)
 
 Clicking yes leads to a request being sent to the owner. Click no returns the user to the search form/results page.
-![ScreenShot](public/assets/css/images/Success.jpg)
+![ScreenShot](public/assets/css/images/Success.png)
 
 
 ## 3. Owner View
 If you selected an owner, you are taken to the owner page where you are first prompted to enter your username.
-![ScreenShot](public/assets/css/images/OwnerSignin.jpg)
+![ScreenShot](public/assets/css/images/OwnerSignin.png)
 
 If your username is not yet in the system, an invalid username message will appear along with a close button and a create new user button.
-![ScreenShot](public/assets/css/images/InvalidOwner.jpg)
-![ScreenShot](public/assets/css/images/CreateOwner.jpg)
+![ScreenShot](public/assets/css/images/InvalidOwner.png)
+![ScreenShot](public/assets/css/images/CreateOwner.png)
 
 After creating a new user or entering a valid username owners are taken to a form to list their item with the following parameters:
 1. Username
@@ -41,11 +41,11 @@ After creating a new user or entering a valid username owners are taken to a for
 6. Item Description
 7. Location
 8. Dates Available
-![ScreenShot](public/assets/css/images/OwnerList.jpg)
-![ScreenShot](public/assets/css/images/OwnerList_text.jpg)
+![ScreenShot](public/assets/css/images/OwnerList.png)
+![ScreenShot](public/assets/css/images/OwnerList_text.png)
 
 Once the list item button is clicked the information for the entered item is listed below the search form with all other items the owner has listed on the site.
-![ScreenShot](public/assets/css/images/OwnerDisplay.jpg)
+![ScreenShot](public/assets/css/images/OwnerDisplay.png)
 
 ## NPMs Used
 This webapp requires the use of the following npms:
