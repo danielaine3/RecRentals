@@ -15,7 +15,7 @@ If you selected a renter, you are taken to the rental search page, where you can
 ![ScreenShot](public/assets/css/images/UserSearch.png)
 ![ScreenShot](public/assets/css/images/UserSearch_text.png)
 Once the search button is clicked, items that match the entered criteria will display below the search box.
-![ScreenShot](public/assets/css/images/UserResults.jpg)
+![ScreenShot](public/assets/css/images/UserResults.png)
 
 Clicking the rent button will take you to a confirmation of page where you are asked "Are you sure you want to rent this item?"
 ![ScreenShot](public/assets/css/images/RentalConfirm.png)
