@@ -1,0 +1,177 @@
+* {
+	box
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  padding: 32px;
+}
+
+h1 {
+  font-family: 'Stalinist One', cursive;
+}
+
+.list-inline {
+  background-color: transparent;
+  color: white;
+  float: right;
+}
+
+.nav-link {
+  a: hover;
+  color: white;
+}
+
+body {
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-size: 50%, 50%, 50%, 50%;
+	background-attachment: fixed, fixed, fixed, fixed;
+	background-position: left top, right top, right bottom, left bottom;
+
+}
+
+.home {
+  background-image: url(images/winter.jpg), url(images/spring.jpg), url(images/summer.jpg), url(images/fall.jpg);
+}
+
+.owner {
+  background-image: url(images/fall.jpg), url(images/winter.jpg), url(images/spring.jpg), url(images/summer.jpg);
+}
+
+.renter {
+  background-image: url(images/summer.jpg), url(images/fall.jpg), url(images/winter.jpg), url(images/spring.jpg);
+}
+
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.card {
+  border-color: orangeRed;
+  /*margin : 5px;*/
+}
+
+.card-header {
+  background-color: orangeRed;
+  color: white;
+  font-weight: bold;
+}
+
+#newCard {
+  height: auto;
+  width: : 286px;
+  padding: 0px !important;
+  margin: 10px !important;
+  border-color: solid 1px orangeRed;
+  display: inline-block;
+  width: 30%;
+}
+
+
+.btn {
+  background-color: orangeRed;
+  border-color: orangeRed;
+  color: white;
+}
+
+img {
+  height: 100%,
+  width: 100%;
+}
+
+#describe {
+  height: 10px;
+  overflow-y: scroll;
+}
+
+#newOwnerCard {
+  float: center;
+  width: 286px;
+  height: auto;
+  padding: 0px !important;
+  margin: 0px !important;
+  border-color: solid 1px orangeRed;
+  display : inline-block;
+}
+
+#image {
+  height: 100%,
+  width: 100%;
+}
+
+#ownerSubmit {
+  width: 100px;
+  margin-left: 15px;
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+}
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
+  color: white;
+}
+
+.page-footer {
+	font-color: #607d8b;
+}
+
+.nav-item {
+  padding: 32px;
+}
+
+#newUser {
+  display: none;
+}
+
+#newUserInput {
+  display: none;
+}
+
+#confirmRentModal {
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 60%;
+  padding: 50px;
+  display: none;
+}
+
+#yes {
+  width: 30%;
+  margin: 10px;
+  align-items: center;
+}
+
+#no {
+  width: 30%;
+  margin: 10px;
+}
+
+#back {
+  width: 30%;
+  margin: 10px;
+  display: none;
+}

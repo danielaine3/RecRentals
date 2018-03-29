@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS rentalApp_db;
+CREATE DATABASE rentalApp_db;
+
+USE rentalApp_db;
+
+CREATE TABLE Rentals
+(
+  id INT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(255) NULL,
+  item VARCHAR(255) NULL,
+  rate VARCHAR(255) NULL,
+  owner VARCHAR(255) NULL,
+  location VARCHAR(255) NULL,
+  category VARCHAR(255) NULL,
+  description VARCHAR(255) NULL,
+  imgURL VARCHAR(255) NULL,
+  PRIMARY KEY (id)
+);

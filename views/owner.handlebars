@@ -1,0 +1,128 @@
+<head>
+	<title>Rec Rentals | Owner</title>
+	<link rel="stylesheet" href="../public/assets/css/style.css" type="text/css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body class="owner">
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+	<div class="card">
+	  <div class="card-body">
+	    <h2>Welcome! What Item(s) Are You Listing For Rent Today?</h2>
+	    <br>
+	    <form>
+	    	<div class="row">
+	    		<div class="col-md-3">
+	    			<div class="form-group">
+	    				<label for="usernameInput">Username</label>
+	    				<input type="item" class="form-control" id="userName" placeholder="ex: test123">
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+	    		<div class="col-md-6">
+			    	<div class="form-group">
+					    <label for="exampleFormControlInput1">Item Name </label> 
+					    <input type="item" class="form-control" id="item-name" placeholder="ex: golf clubs">
+					 </div>
+					</div>
+					<div class="col-md-6">
+				    	<div class="form-group">
+						    <label for="item-category">Category</label>
+						    <select class="form-control" id="item-category">
+						      <option>Water Sports</option>
+						      <option>Camping/Hiking</option>
+						      <option>Winter Sports</option>
+						      <option>Fishing</option>
+						      <option>Golf</option>
+						    </select>
+						 </div>
+					</div>
+				</div>
+			<div class="row">
+				<form>
+				  <div class="form-group col-md-3">
+				    <label for="item-img">Upload Photo of Item <i class="icon ion-android-attach"></i></label>
+				    <input type="file" class="imageFile" id="item-img">
+				  </div>
+				</form>
+				<div class="col-md-3">
+					<label for="item-price">Rental Price</label>
+			    <input type="text" class="form-control" id="item-price">
+				</div>
+				<div class="col-md-6">
+					<label for="item-description">Item Description</label>
+			    <input type="text" class="form-control" id="item-description">
+				</div>
+			</div>
+			 <div class="form-group">
+			    <label for="item-location">Location <i class="ion-ios-location-outline"></i></label>
+			    <input type="location" class="form-control" id="item-location">
+			 </div>
+		<div class="row">	
+		 	<div class="col-md-4">
+					 <div class="form-group">
+					    <label for="dateNeeded">Date Available From: </label>
+					    <input type="date" class="form-control" id="day">
+					 </div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+					    <label for="dateNeeded">To: </label>
+					    <input type="date" class="form-control" id="day">
+					 </div>
+				</div> 
+			</div>
+		</div>
+			 <br>
+			 <button id="ownerSubmit" type="submit" class="btn btn-primary mb-2">List Item <i class="icon ion-android-add-circle"></i></button> 
+		</form>
+	  </div>
+
+	</div>
+	</div>
+</div>
+<br><br>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8" id="ownerResults"></div> <br>
+  <div class="col-md-2"></div>
+</div>
+<br><br>
+<br><br><br>
+<div class="modal" id="#myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Enter Username</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<form>
+		  <div class="form-group">
+		    <label for="username">Username</label>
+		    <input type="username" class="form-control" id="userNameOne" placeholder="Username">
+		    <div class = "modalInfo"></div>
+		  </div>
+		</form>
+		<form id="newUserInput">
+			<div class="form-group">
+				<label for="createNew">Enter New Username</label>
+				<input type= "newUser" class="form-control" placeholder="abc123">
+			</div>
+		</form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="submit" id="submit-modal" class="btn btn-primary">Submit <i class="icon ion-android-arrow-forward"></i></button>
+        <button type="button" id="close" class="btn btn-secondary" data-dismiss="modal">Close <i class="icon ion-android-cancel"></i></button>
+        <button type="button" id="newUser" class="brn btn-secondary">Create New User <i class="icon ion-android-add-circle"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../../public/assets/js/owner.js"></script>
+</body>

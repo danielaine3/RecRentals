@@ -1,0 +1,87 @@
+<head>
+	<title>Rec-Rentals | Renter</title>
+	<link rel="stylesheet" href="../public/assets/css/style.css" type="text/css">
+	<script src="../../public/assets/js/usersearch.js"></script>
+</head>
+<body class="renter">
+<div class = "row">
+	<div class="card" id="confirmRentModal">
+		<h4 id="title" class="card-title">Are You Sure You Want to Rent this Item?</h4>
+		<br><br>
+		<button id="yes" class= "btn btn-primary mb-2" type="submit">Yes</button>
+		<button id="no" class= "btn btn-primary mb-2" data-dismiss="confirmRentalModal" type="submit">No</button>
+		<button id="back" class= "btn btn-primary mb-2" type="submit">Back To Results</button>
+	</div>
+</div>
+<div class="row" id="mainSection">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+	<div class="card" id="mainCard">
+	  <div class="card-body">
+	    <h2>Welcome! What are You Searching For Today?</h2>
+	    <br>
+	    <form>
+	    	<div class="row">
+	    		<div class="col-md-6">
+			    	<div class="form-group">
+					    <label for="exampleFormControlInput1">Search Item</label>
+					    <input type="item" class="form-control" id="itemSearch" placeholder="ex: golf clubs">
+					 </div>
+					</div>
+					<div class="col-md-6">
+				    	<div class="form-group">
+						    <label for="exampleFormControlSelect1">Category</label>
+						    <select class="form-control" id="category">
+						      <option>Water Sports</option>
+						      <option>Camping/Hiking</option>
+						      <option>Winter Sports</option>
+						      <option>Fishing</option>
+						      <option>Golf</option>
+						    </select>
+						 </div>
+					</div>
+				</div>
+			 <div class="row">
+				<div class="col-md-6">
+				    <div class="form-group">
+					    <label for="exampleFormControlSelect1">Distance from Location</label>
+					    <select class="form-control" id="category">
+					      <option>5 miles</option>
+					      <option>10 miles</option>
+					      <option>15 miles</option>
+					      <option>20 miles</option>
+					      <option>25 miles</option>
+					    </select>
+					 </div>
+				</div>
+				<div class="form-group col-md-6">
+			    	<label for="location">Location <i class="ion-ios-location-outline"></i></label>
+			    	<input type="location" class="form-control" id="locationSearch">
+			 	</div>
+			</div>
+			 <div class="row">
+			 	<div class="col-md-4">
+					 <div class="form-group">
+					    <label for="dateNeeded">Date Needed From: </label>
+					    <input type="date" class="form-control" id="day">
+					 </div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+					    <label for="dateNeeded">To: </label>
+					    <input type="date" class="form-control" id="daytwo">
+					 </div>
+				</div>
+			</div>
+			 <br>
+			 <button id="submit" type="submit" class="btn btn-primary mb-2">Search <i class="icon ion-android-search"></i></button>
+			</form>		
+	  </div>  
+	</div>
+	<br>
+	<div class="row">
+	  	<div class="col-md-12" id="results"></div>
+	</div>
+	</div>
+</div>
+</body>
